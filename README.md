@@ -34,6 +34,7 @@ Once the extension is installed, simply use it in your code by  :
                 'class' => 'pashkinz92\epochtasms\EpochtaClass',
                 'sms_key_private' => 'sms_key_private',
                 'sms_key_public' => 'sms_key_public',
+                'name_sender' => 'name_sender',
                 'testMode' => false, //Включение тестового режима
             ],
 ...
@@ -41,4 +42,5 @@ Once the extension is installed, simply use it in your code by  :
 ```
 
 ```php
-\Yii::$app->epochtasms->sendSMS('USER_FROM', 'MESSAGE', 'USER_PHONE'); ```
+\Yii::$app->epochtasms->sendSMS('MESSAGE', 'USER_PHONE', 'USER_FROM'); 
+```
