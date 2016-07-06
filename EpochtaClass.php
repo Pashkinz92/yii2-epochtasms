@@ -33,7 +33,7 @@
             {
                 $sender = $this->name_sender;
             }
-            $datetime = date('Y-m-d H:i:s', time());
+            $datetime = gmdate('Y-m-d H:i:s', time());
             $sms_lifetime =  0;
 
             $Gateway=new APISMS($this->sms_key_private, $this->sms_key_public, $this->URL_GAREWAY);
