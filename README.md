@@ -32,8 +32,8 @@ Once the extension is installed, simply use it in your code by  :
 ...
     'epochtasms'=>[
                 'class' => 'pashkinz92\git epochtasms\EpochtaClass',
-                'sms_key_private' => '20a64154d9609299ff91f83e9b63f0a0',
-                'sms_key_public' => 'b8720a4dc6c905e1e174d0ae372a8819',
+                'sms_key_private' => 'sms_key_private',
+                'sms_key_public' => 'sms_key_public',
                 'testMode' => false, //Включение тестового режима
             ],
 ...
