@@ -1,6 +1,6 @@
 <?php
 
-	namespace common\components\epochtasms;
+	namespace pashkinz92\epochtasms;
 
 class APISMS{
 
