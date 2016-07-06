@@ -31,7 +31,7 @@ Once the extension is installed, simply use it in your code by  :
 'components' => [
 ...
     'epochtasms'=>[
-                'class' => 'pashkinz92\git epochtasms\EpochtaClass',
+                'class' => 'pashkinz92\epochtasms\EpochtaClass',
                 'sms_key_private' => 'sms_key_private',
                 'sms_key_public' => 'sms_key_public',
                 'testMode' => false, //Включение тестового режима
