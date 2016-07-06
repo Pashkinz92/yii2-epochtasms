@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	namespace pashkinz92\epochtasms;
 	
 class Stat{
