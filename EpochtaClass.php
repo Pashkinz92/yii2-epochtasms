@@ -36,7 +36,7 @@
             $datetime = date('Y-m-d H:i:s', time());
             $sms_lifetime =  0;
 
-            $Gateway=new APISMS($this->sms_key_private, $this->sms_key_public, $this->URL_GAREWAY);
+            $Gateway=new APISMS($this->sms_key_private, $this->sms_key_public, $this->URL_GAREWAY, $this->testMode);
             $Stat = new Stat ($Gateway);
 
             return $Stat->sendSMS($sender, $text, $phone, $datetime, $sms_lifetime);
